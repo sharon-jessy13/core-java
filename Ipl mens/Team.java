@@ -10,14 +10,7 @@ class Team{
     
     public void getTeamInfo(){
     
-        System.out.print(
-            name + "    " +
-            noOfmatches + "           " +
-            won + "    " +
-            loss + "   " +
-            nrr + "     " +
-            pts + "   "
-        );
+        System.out.print(name + "    " +noOfmatches + "           " +won + "    " +loss + "   " +nrr + "     " +pts + "   ");
         
         for(String match : lastFive){
             System.out.print(" " + match);

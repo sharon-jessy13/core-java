@@ -9,15 +9,7 @@ class Season{
         
         System.out.println("IPL Team information");
         
-        System.out.println(
-            "name " +
-            "noOfmatches  " +
-            "won  " +
-            "loss " +
-            "  nrr    " +
-            " pts " +
-            " Last five"
-        );
+        System.out.println("name " +"noOfmatches  " +"won  " +"loss " +"  nrr    " +" pts " +" Last five");
         
         for (Team team : teams){
             team.getTeamInfo();
